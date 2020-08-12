@@ -1,0 +1,29 @@
+{
+  "name": "HackerNewsAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Trish Bandhekar",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.3.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.0.0",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0",
+    "redis": "^3.0.2"
+  }
+}
